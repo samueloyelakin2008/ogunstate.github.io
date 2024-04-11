@@ -1,0 +1,129 @@
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #000000#;
+            color: green;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+          
+          align-items: center;
+        }
+
+     
+     .ay{
+        color:green;
+     }
+       .hd{
+        color:green;
+       }
+
+.gp{
+    color:blue;
+}
+
+.contact{
+
+
+
+    color:red;
+}
+
+
+.as{
+    color:red;
+}
+
+
+
+
+.ap{
+   color:red;
+
+}
+
+
+
+
+
+.ag{
+    color:red;
+}
+
+        .logo1 {
+            margin-right: auto;
+            height: 100px;
+            width: 90px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Carousel Styles */
+        .carousel-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Content Styles */
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .content-box {
+            flex: 1;
+            background-image:url(images 4.Jpg);
+            padding: 20px;
+            margin: 10px;
+            box-sizing: border-box; 
+        }
+
+        /* Images Section Styles */
+        .images-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .image-box {
+            flex: 1;
+            background-color: #eee;
+            padding: 20px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+        }
+    
